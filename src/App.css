@@ -17,12 +17,12 @@ html {
 nav ul {
   list-style: none;
   display: flex;
-  background-color: whitesmoke;
-  margin-bottom: 20px;
+  background-color: white;
 }
 
 nav ul li {
   padding: 10px;
+  border: solid 1px gray;
 }
 
 nav ul li a {
@@ -46,9 +46,10 @@ p {
   position: fixed;
   top: 0;
   width: 100%;
+  border: solid 1px black;
 }
 
 body {
   padding-top: 3em;
-  background-color: rgb(252, 248, 244);
+  background-color: rgb(255, 248, 255);
 }
