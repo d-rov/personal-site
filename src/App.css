@@ -53,3 +53,20 @@ body {
   padding-top: 3em;
   background-color: rgb(247, 239, 247);
 }
+
+.homeContainer {
+  padding: 5em;
+  display: flex;
+}
+
+.narrow {
+  padding: 3em;
+  width: 15em;
+  border: solid 1px black;
+}
+
+.wide {
+  padding: 3em;
+  flex: 1;
+  background-color: green;
+}
